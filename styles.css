@@ -1,1 +1,14 @@
-/*  your css code here. If applicable */
+body {
+  margin: 0;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+.star {
+  width: 100px;
+  height: 100px;
+  background-color: #ffff54; /* Bright yellow */
+  
+  /* Symmetrical 6-point star polygon */
+  clip-path: polygon(50% 0%, 65% 25%, 100% 25%, 80% 50%, 100% 75%, 65% 75%, 50% 100%, 35% 75%, 0% 75%, 20% 50%, 0% 25%, 35% 25%);
+}
